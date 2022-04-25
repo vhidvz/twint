@@ -1,9 +1,7 @@
-FROM python:3.6-alpine
+FROM python:3.6-buster
 LABEL maintainer="codyzacharias@pm.me"
 
 WORKDIR /root
-
-RUN apk add --update py-pip git
 
 RUN git clone --depth=1 https://github.com/vhidvz/twint.git && \
 	cd /root/twint && \
