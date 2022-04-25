@@ -5,7 +5,7 @@ cchardet==2.1.4
 dataclasses==0.6
 elasticsearch==6.3.1
 pysocks==1.6.8
-pandas==0.23.0
+pandas==0.23.4
 aiohttp_socks==0.4.1
 schedule==0.6.0
 geopy==1.20.0
